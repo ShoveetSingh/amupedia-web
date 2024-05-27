@@ -11,8 +11,13 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
+<<<<<<< HEAD
     "@fortawesome/react-fontawesome": "^0.2.0",
     "aos": "^2.3.4",
+=======
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@types/webidl-conversions": "^7.0.0",
+>>>>>>> 2e3ced3f1a6c1a70341b50aee0bde119b118a150
     "axios": "^0.27.2",
     "bcryptjs": "^2.4.3",
     "framer-motion": "^5.5.5",
