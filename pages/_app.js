@@ -1,10 +1,9 @@
-<<<<<<< HEAD
+
 import Navbar from "@comp/common/Navbar";
 import jwt from "jsonwebtoken";
-=======
-import Navbar from "@comp/Navbar";
+//import Navbar from "@comp/Navbar";
 // import jwt from "jsonwebtoken";
->>>>>>> 2e3ced3f1a6c1a70341b50aee0bde119b118a150
+
 import "@styles/globals.css";
 import Head from "node_modules/next/head";
 // import { useEffect } from 'react';
@@ -100,64 +99,6 @@ function MyApp({ Component, pageProps, router }) {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172950963478417"
             crossOrigin="anonymous"
           ></script> */}
-<<<<<<< HEAD
-
-          <title>Amupedia</title>
-          {/* Primary meta tags */}
-          <meta name="title" content="Amupedia" />
-          <meta
-            name="description"
-            content="Amupedia is an initiative to help college students pursuing B.Tech, B.E or B.Com, especially from AMU."
-          />
-          <meta name="keywords" content="B.Tech, B.Com, B.E, Amupedia, college program, academic demands, assistance, students, notes, blogs, events, knowledge, influences, connections, ZHCET" />
-          <meta name="language" content="en" />
-          <meta name="author" content="Anmol Agrawal, Haider Ali, Muhammad Jufry" />
-          <meta name="robots" content="index, follow" />
-          <meta name="revisit-after" content="7 days" />
-          
-          {/* Open Graph / Facebook */}
-          <meta
-            property="og:image"
-            content="https://www.amupedia.com/og-image.webp"
-          />
-          <meta property="og:image:width" content="150" />
-          <meta property="og:image:height" content="150" />
-
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content="Amupedia" />
-          <meta property="og:site_name" content="Amupedia" />
-          <meta
-            property="og:description"
-            content="Amupedia is an initiative to help college students pursuing B.Tech, B.E or B.Com, especially from AMU."
-          />
-          <meta property="og:url" content="https://www.amupedia.com" />
-
-          {/* Twitter */}
-          <meta name="twitter:card" content="summary" />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={addProductJsonLd()}
-            key="product-jsonld"
-          />
-        </Head>
-        <section styles={{ position: "relative" }}>
-          
-          <Component {...pageProps}></Component>
-          <Script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6172950963478417"
-            crossOrigin="anonymous"
-          ></Script>
-          <Script
-            src="https://accounts.google.com/gsi/client"
-            async
-            defer
-          ></Script>
-        </section>
-      </motion.div>
-    </StoreProvider>
-  );
-=======
 					<script
 						src="https://accounts.google.com/gsi/client"
 						async
@@ -200,7 +141,6 @@ function MyApp({ Component, pageProps, router }) {
 			</motion.div>
 		</StoreProvider>
 	);
->>>>>>> 2e3ced3f1a6c1a70341b50aee0bde119b118a150
 }
 
 export default MyApp;
